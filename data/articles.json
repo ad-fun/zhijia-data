@@ -1,0 +1,162 @@
+[
+  {
+    "id": "tech-sensor-overview",
+    "slug": "tech-sensor-overview",
+    "title": "花了十几万买智驾，车到底靠什么\"看路\"？",
+    "date": "2026-06-15",
+    "module": "tech",
+    "summary": "摄像头、激光雷达、毫米波……智驾六大传感器各有绝活也各有致命短板，四家主流方案谁选了什么、为什么选、效果如何——一次讲透",
+    "url": "/article.html?slug=tech-sensor-overview",
+    "cover_image": "/assets/banner-ai.jpg",
+    "tags": [
+      "技术路线",
+      "传感器",
+      "激光雷达",
+      "纯视觉",
+      "融合感知",
+      "摄像头"
+    ],
+    "content": "<hr>\n<p>AIGC:</p>\n<p>    Label: \"1\"</p>\n<p>    ContentProducer: 001191110102MACQD9K64018705</p>\n<p>    ProduceID: 4487541754181244_7491956454812090422/project_7651417632608092425-files/智驾30天/D01_感知全景.md</p>\n<p>    ReservedCode1: \"\"</p>\n<p>    ContentPropagator: 001191110102MACQD9K64028705</p>\n<p>    PropagateID: 4487541754181244#1781510536140</p>\n<p>    ReservedCode2: \"\"</p>\n<hr>\n<h1>花了十几万买智驾，车到底靠什么\"看路\"？</h1>\n\n<blockquote><strong>本文讲什么</strong>：你买车时销售张口闭口\"激光雷达\"\"纯视觉\"\"融合感知\"，但这些传感器到底各管什么？为什么有的车装3颗激光雷达，有的1颗都不装？哪种方案更安全？读完这篇，你能搞懂智驾\"眼睛\"的底层逻辑，下次选车不再被术语忽悠。</blockquote>\n\n<hr>\n\n<p>智驾系统感知路况，就像人用五官感知世界——但车不止\"两只眼\"，而是同时用六种传感器\"看路\"。摄像头、毫米波雷达、激光雷达、超声波、红外热成像、惯性导航，各有绝活，也各有致命短板。今天的文章，把这六双\"眼睛\"一次讲透。</p>\n\n<hr>\n\n<h2>六大传感器，各管什么？</h2>\n\n<figure class=\"article-img\">\n  <img src=\"/assets/tech-sensor-overview-1.jpg\" alt=\"智驾六大传感器类型概览\" style=\"max-width:100%;border-radius:8px;margin:12px 0;\">\n  <figcaption style=\"text-align:center;color:var(--text-dim);font-size:0.85em;margin-top:4px;\">智驾六大传感器类型概览</figcaption>\n</figure>\n\n<p>*图1：智驾系统六大传感器类型概览（AI生成示意图）*</p>\n\n<p>摄像头最像人眼，能识别车道线、红绿灯、行人姿态，是目前唯一能\"理解语义\"的传感器。但一遇强逆光、大雾、暴雨，画质断崖下跌。</p>\n\n<p>毫米波雷达穿透力极强，雨雪雾天照样工作，专测距离和速度。但分辨率低，分不清前方是金属路牌还是真车，静止物体识别是老大难。</p>\n\n<p>激光雷达用激光束扫描环境，生成高精度三维点云，测距精度可达厘米级。但遇到雨雪雾就歇菜，而且成本高、机械部件寿命有限。</p>\n\n<p>超声波便宜可靠，专管近距离测距，泊车辅助的主力。但探测距离只有几米，高速场景基本没用。</p>\n\n<p>红外热成像靠温度差成像，伸手不见五指的黑夜也能发现行人。但分辨率低、成本高，目前只有少数高端车型配备。</p>\n\n<p>惯性导航（IMU）不靠外部信号，靠自身加速度计和陀螺仪推算位置，是隧道、地下车库的\"最后防线\"。但误差会累积，必须定期校正。</p>\n\n<hr>\n\n<h2>不同传感器\"看\"到的频段完全不同</h2>\n\n<figure class=\"article-img\">\n  <img src=\"/assets/tech-sensor-overview-2.jpg\" alt=\"传感器频段覆盖范围\" style=\"max-width:100%;border-radius:8px;margin:12px 0;\">\n  <figcaption style=\"text-align:center;color:var(--text-dim);font-size:0.85em;margin-top:4px;\">传感器频段覆盖范围</figcaption>\n</figure>\n\n<p>*图2：六大传感器工作频段覆盖范围示意（AI生成示意图）*</p>\n\n<p>摄像头工作在可见光波段（400-700nm），毫米波雷达在76-81GHz微波频段，激光雷达主要在905nm和1550nm近红外波段，超声波在40-60kHz声波频段，红外热成像在8-14μm远红外波段，惯导不依赖电磁波。频段不同，决定了它们在不同天气和光照条件下表现天差地别。</p>\n\n<hr>\n\n<h2>逐个拆解：每个传感器怎么工作？</h2>\n\n<h3>1. 摄像头——智驾的\"语义理解之王\"</h3>\n\n<p>摄像头通过镜头采集可见光图像，再由AI模型识别目标类别和语义信息。核心能力是理解\"这是什么\"——车道线、红绿灯、行人手势、文字标识，只有摄像头能读懂。但暗光、逆光、雨雾天气下，成像质量急剧下降，纯视觉方案的致命短板就在这里。</p>\n\n<p><strong>谁在用：</strong> 特斯拉全系（纯视觉）、小鹏P7+/G6（纯视觉版）、华为ADS基础版</p>\n<p><strong>为什么选：</strong> 成本低、信息量最大、唯一具备语义理解能力</p>\n<p><strong>效果如何：</strong> 晴天表现顶级，夜间和恶劣天气是阿喀琉斯之踵</p>\n\n<hr>\n\n<h3>2. 毫米波雷达——穿透之王</h3>\n\n<p>毫米波雷达发射76-81GHz电磁波，通过回波计算目标距离和速度。最大优势是穿透雨雪雾，全天候工作。4D毫米波雷达还增加了高度信息，分辨率大幅提升。但传统毫米波雷达无法分辨静止物体，\"把桥洞当障碍物\"的误刹车问题频发。</p>\n\n<p><strong>谁在用：</strong> 几乎所有智驾车型标配、华为ADS 3.0（4D毫米波）、蔚来ET7（4D毫米波）</p>\n<p><strong>为什么选：</strong> 全天候测距测速、成本适中、技术成熟</p>\n<p><strong>效果如何：</strong> 测速精准，但静止目标和高度识别仍是瓶颈</p>\n\n<hr>\n\n<h3>3. 激光雷达——三维建模之王</h3>\n\n<p>激光雷达发射激光脉冲，测量回波时间来精确计算距离，生成三维点云。905nm方案成本低但受限于人眼安全功率，1550nm方案功率更高、测距更远但价格昂贵。禾赛AT128、速腾M1 Plus是当前主流量产型号。激光雷达是\"确认在哪里\"的最可靠手段，但在雨雪雾中激光束被散射，性能骤降。</p>\n\n<p><strong>谁在用：</strong> 华为ADS 3.0高配（1-3颗）、理想L9 Max、蔚来ET7、小米SU7 Max</p>\n<p><strong>为什么选：</strong> 厘米级测距精度、三维建模能力、对静态障碍物识别远超毫米波</p>\n<p><strong>效果如何：</strong> 晴天表现顶级，恶劣天气衰减明显，成本仍是最大门槛</p>\n\n<hr>\n\n<h3>4. 超声波雷达——泊车守护者</h3>\n\n<p>超声波雷达发射40-60kHz声波，通过回波时间计算近距离障碍物位置。探测距离通常3-5米，精度足以支撑自动泊车。成本极低（单车约200元），几乎所有车型标配。但高速场景下超声波完全无法工作，且容易受风噪和温度影响。</p>\n\n<p><strong>谁在用：</strong> 几乎所有智驾车型标配（8-12颗）</p>\n<p><strong>为什么选：</strong> 极低成本、近距离可靠、泊车刚需</p>\n<p><strong>效果如何：</strong> 低速泊车场景可靠，高速无用，探测距离极短</p>\n\n<hr>\n\n<h3>5. 红外热成像——暗夜猎手</h3>\n\n<p>红外热成像传感器检测8-14μm远红外波段的热辐射，通过温差成像。完全不需要光线，伸手不见五指的黑夜也能清晰发现行人和动物。但分辨率远低于摄像头，无法识别具体是什么物体，只能发现\"那里有个热源\"。成本高且技术门槛大，目前仅有少数高端车型配备。</p>\n\n<p><strong>谁在用：</strong> 凯迪拉克超级巡航（早期）、高合HiPhi X、部分商用车</p>\n<p><strong>为什么选：</strong> 零光照下仍可探测生物、不受对向车灯干扰</p>\n<p><strong>效果如何：</strong> 暗夜行人探测无可替代，但分辨率和普及度都太低</p>\n\n<hr>\n\n<h3>6. 惯性导航（IMU）——最后的底线</h3>\n\n<p>IMU通过三轴加速度计和三轴陀螺仪感知车辆运动状态，不依赖任何外部信号，在GPS信号丢失的隧道、地下车库中仍可推算位置。但误差随时间累积，通常需要与GNSS、轮速计组合使用（组合导航）。高精度IMU成本数千元，是智驾系统的\"安全兜底\"。</p>\n\n<p><strong>谁在用：</strong> 华为ADS全系、小鹏XNGP、理想AD Max</p>\n<p><strong>为什么选：</strong> 隧道和高架桥下的定位兜底、与GNSS组合提升精度</p>\n<p><strong>效果如何：</strong> 短时间定位可靠，长时间累积误差需外部校正</p>\n\n<hr>\n\n<h2>品牌方案对比：谁选了什么，为什么？</h2>\n\n<figure class=\"article-img\">\n  <img src=\"/assets/tech-sensor-overview-3.jpg\" alt=\"四家品牌传感器配置对比\" style=\"max-width:100%;border-radius:8px;margin:12px 0;\">\n  <figcaption style=\"text-align:center;color:var(--text-dim);font-size:0.85em;margin-top:4px;\">四家品牌传感器配置对比</figcaption>\n</figure>\n\n<p>*图3：四家主流智驾方案传感器配置对比（AI生成示意图）*</p>\n\n<p>特斯拉HW4.0坚持纯视觉，用8颗摄像头+1颗4D毫米波替代激光雷达，靠海量数据和超算训练弥补硬件短板。华为ADS 3.0高配堆满传感器，1颗激光雷达+3颗毫米波+11颗摄像头，追求安全冗余天花板。小鹏纯视觉版用双Orin-X芯片508TOPS算力硬扛，赌的是算力可以弥补传感器不足。比亚迪天神之眼分层策略：A版上激光雷达，B版纯视觉+4D毫米波，C版基础辅助，覆盖8-30万全价位。</p>\n\n<hr>\n\n<h2>能力维度雷达图：一图看懂各方案长短</h2>\n\n<figure class=\"article-img\">\n  <img src=\"/assets/tech-sensor-overview-4.jpg\" alt=\"四家智驾方案能力维度对比雷达图\" style=\"max-width:100%;border-radius:8px;margin:12px 0;\">\n  <figcaption style=\"text-align:center;color:var(--text-dim);font-size:0.85em;margin-top:4px;\">四家智驾方案能力维度对比雷达图</figcaption>\n</figure>\n\n<p>*图4：特斯拉/华为/小鹏/比亚迪特斯拉/华为/小鹏/比亚迪四家智驾方案能力维度对比（数据驱动生成，仅作定性参考）*</p>\n\n<p>没有绝对的最优解。特斯拉用数据规模弥补硬件不足，华为用传感器冗余换取安全天花板，小鹏用算力暴增突破纯视觉瓶颈，比亚迪用分层策略覆盖全价位——<strong>每种选择背后，都是\"拿什么换什么\"的工程权衡</strong>。</p>\n\n<hr>\n\n<h2>一句话总结</h2>\n\n<p><strong>摄像头负责\"看清是什么\"，激光雷达负责\"确认在哪里\"，毫米波负责\"量多远多快\"——三种传感器缺的不是功能，是各自能力边界的互补。选车时，预算够就上激光雷达版本，预算紧就把钱花在算力上，别为营销话术买单。</strong></p>\n\n<hr>\n\n<blockquote>💬 <strong>还想看什么？</strong> 摄像头凭什么被称为智驾\"灵魂\"？纯视觉方案暗光下到底行不行？关注 <strong>AD FUN</strong> 平台，更多智驾硬核解读持续更新。你感兴趣的话题，也可以在评论区告诉我们！</blockquote>\n\n<hr>\n\n<p>*图片来源说明：图1-4均为AI生成示意图，数据基于公开资料整理；品牌配置数据引用来源：<a href=\"http://m.toutiao.com/group/7651430315398840847/\" target=\"_blank\">特斯拉FSD HW4.0对决比亚迪天神之眼</a>、<a href=\"https://www.eeworld.com.cn/qcdz/eic723298.html\" target=\"_blank\">是什么技术让小鹏智驾敢扔掉激光雷达</a>、<a href=\"http://m.toutiao.com/group/7647113272759566911/\" target=\"_blank\">比亚迪天神之眼全版本配置解析</a>*</p>\n\n<hr>\n\n<blockquote>本内容由 Coze AI 生成，请遵循相关法律法规及《人工智能生成合成内容标识办法》使用与传播。</blockquote>\n"
+  },
+  {
+    "id": "tech-jargon-decode",
+    "title": "智驾名词大乱斗：一个产品经理的完全拆解",
+    "date": "2026-06-14",
+    "module": "tech",
+    "summary": "NOA、NCA、NGP、端到端、D2D……智驾黑话一次性拆干净，读完去店里销售得说实话",
+    "url": "/articles/tech-jargon-decode.html",
+    "cover_image": "/assets/cover-tech-jargon-decode.jpg",
+    "tags": [
+      "技术路线",
+      "NOA",
+      "端到端",
+      "智驾分级",
+      "纯视觉",
+      "激光雷达"
+    ],
+    "slug": "tech-jargon-decode"
+  },
+  {
+    "id": "newcar-greatwall-hi4t",
+    "title": "全新长城炮Hi4-T 智驾解读",
+    "date": "2026-06-13",
+    "module": "newcar",
+    "summary": "长城炮，Hi4-T混动+L2智驾，国产高端皮卡新选择",
+    "url": "/articles/newcar-greatwall-hi4t.html",
+    "cover_image": "/assets/banner-ai.jpg",
+    "tags": [
+      "新车解读",
+      "长城炮"
+    ],
+    "slug": "newcar-greatwall-hi4t"
+  },
+  {
+    "id": "newcar-shenlan-s07",
+    "title": "全新深蓝S07 智驾解读",
+    "date": "2026-06-13",
+    "module": "newcar",
+    "summary": "深蓝汽车，华为乾崑激光雷达版，20万级高性价比智驾SUV",
+    "url": "/articles/newcar-shenlan-s07.html",
+    "cover_image": "/assets/banner-ai.jpg",
+    "tags": [
+      "新车解读",
+      "深蓝汽车"
+    ],
+    "slug": "newcar-shenlan-s07"
+  },
+  {
+    "id": "daily-report-20260613",
+    "title": "智驾日报 | 2026年6月13日",
+    "date": "2026-06-13",
+    "module": "daily",
+    "summary": "欧洲18国批准跨境Robotaxi测试、Waymo推出月费订阅、特斯拉FSD丹麦获批——今日智驾要闻。",
+    "url": "/articles/daily-report-20260613.html",
+    "cover_image": "/assets/banner-daily.jpg",
+    "tags": [
+      "Waymo",
+      "特斯拉",
+      "欧盟",
+      "Robotaxi",
+      "长安",
+      "蔚来",
+      "黑芝麻智能"
+    ],
+    "slug": "daily-report-20260613"
+  },
+  {
+    "id": "daily-report-20260612",
+    "title": "智驾日报 | 2026年6月12日",
+    "date": "2026-06-12",
+    "module": "daily",
+    "summary": "理想发布5nm马赫M100芯片、百度Apollo Go获瑞士L4批准、Waymo亚特兰大信任危机——今日智驾要闻。",
+    "url": "/articles/daily-report-20260612.html",
+    "cover_image": "/assets/banner-daily.jpg",
+    "tags": [
+      "理想汽车",
+      "特斯拉",
+      "Waymo",
+      "华为",
+      "百度Apollo",
+      "蔚来",
+      "广汽",
+      "smart"
+    ],
+    "slug": "daily-report-20260612"
+  },
+  {
+    "id": "newcar-ledao-l60",
+    "title": "全新新乐道L60 智驾解读",
+    "date": "2026-06-11",
+    "module": "newcar",
+    "summary": "乐道（蔚来旗下），亲民路线，15万级智能电动SUV",
+    "url": "/articles/newcar-ledao-l60.html",
+    "cover_image": "/assets/banner-ai.jpg",
+    "tags": [
+      "新车解读",
+      "乐道"
+    ],
+    "slug": "newcar-ledao-l60"
+  },
+  {
+    "id": "newcar-chuanqi-e8m8",
+    "title": "全新传祺向往E8/M8 智驾解读",
+    "date": "2026-06-11",
+    "module": "newcar",
+    "summary": "广汽传祺，广汽自研X-SOFTWARE智驾方案，中高端MPV智驾体验",
+    "url": "/articles/newcar-chuanqi-e8m8.html",
+    "cover_image": "/assets/banner-ai.jpg",
+    "tags": [
+      "新车解读",
+      "广汽传祺"
+    ],
+    "slug": "newcar-chuanqi-e8m8"
+  },
+  {
+    "id": "newcar-smart-5",
+    "title": "全新smart精灵6号 智驾解读",
+    "date": "2026-06-11",
+    "module": "newcar",
+    "summary": "smart精灵6号，全系激光雷达+终身免费智驾，智驾性价比突出",
+    "url": "/articles/newcar-smart-5.html",
+    "cover_image": "/assets/banner-ai.jpg",
+    "tags": [
+      "新车解读",
+      "smart"
+    ],
+    "slug": "newcar-smart-5"
+  },
+  {
+    "id": "what-is-end-to-end",
+    "title": "什么是端到端大模型？它如何重塑智驾",
+    "date": "2026-06-05",
+    "module": "tech",
+    "summary": "2024 年以来「端到端」席卷智驾圈。它是什么？和过去十年的模块化架构比，赢在哪、输在哪？",
+    "url": "/articles/what-is-end-to-end.html",
+    "cover_image": "/assets/banner-main.jpg",
+    "tags": [
+      "端到端",
+      "技术路线"
+    ],
+    "slug": "what-is-end-to-end"
+  }
+]
