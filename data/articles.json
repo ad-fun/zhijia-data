@@ -25,7 +25,7 @@
     "module": "tech",
     "summary": "NOA、NCA、NGP、端到端、D2D……智驾黑话一次性拆干净，读完去店里销售得说实话",
     "url": "/articles/tech-jargon-decode.html",
-    "cover_image": "/assets/cover-tech-jargon-decode.jpg",
+    "cover_image": "",
     "tags": [
       "技术路线",
       "NOA",
@@ -43,7 +43,7 @@
     "module": "newcar",
     "summary": "长城炮，Hi4-T混动+L2智驾，国产高端皮卡新选择",
     "url": "/articles/newcar-greatwall-hi4t.html",
-    "cover_image": "/assets/banner-ai.jpg",
+    "cover_image": "",
     "tags": [
       "新车解读",
       "长城炮"
@@ -57,7 +57,7 @@
     "module": "newcar",
     "summary": "深蓝汽车，华为乾崑激光雷达版，20万级高性价比智驾SUV",
     "url": "/articles/newcar-shenlan-s07.html",
-    "cover_image": "/assets/banner-ai.jpg",
+    "cover_image": "",
     "tags": [
       "新车解读",
       "深蓝汽车"
@@ -71,7 +71,7 @@
     "module": "daily",
     "summary": "欧洲18国批准跨境Robotaxi测试、Waymo推出月费订阅、特斯拉FSD丹麦获批——今日智驾要闻。",
     "url": "/articles/daily-report-20260613.html",
-    "cover_image": "/assets/banner-daily.jpg",
+    "cover_image": "",
     "tags": [
       "Waymo",
       "特斯拉",
@@ -90,7 +90,7 @@
     "module": "daily",
     "summary": "理想发布5nm马赫M100芯片、百度Apollo Go获瑞士L4批准、Waymo亚特兰大信任危机——今日智驾要闻。",
     "url": "/articles/daily-report-20260612.html",
-    "cover_image": "/assets/banner-daily.jpg",
+    "cover_image": "",
     "tags": [
       "理想汽车",
       "特斯拉",
@@ -110,7 +110,7 @@
     "module": "newcar",
     "summary": "乐道（蔚来旗下），亲民路线，15万级智能电动SUV",
     "url": "/articles/newcar-ledao-l60.html",
-    "cover_image": "/assets/banner-ai.jpg",
+    "cover_image": "",
     "tags": [
       "新车解读",
       "乐道"
@@ -124,7 +124,7 @@
     "module": "newcar",
     "summary": "广汽传祺，广汽自研X-SOFTWARE智驾方案，中高端MPV智驾体验",
     "url": "/articles/newcar-chuanqi-e8m8.html",
-    "cover_image": "/assets/banner-ai.jpg",
+    "cover_image": "",
     "tags": [
       "新车解读",
       "广汽传祺"
@@ -138,7 +138,7 @@
     "module": "newcar",
     "summary": "smart精灵6号，全系激光雷达+终身免费智驾，智驾性价比突出",
     "url": "/articles/newcar-smart-5.html",
-    "cover_image": "/assets/banner-ai.jpg",
+    "cover_image": "",
     "tags": [
       "新车解读",
       "smart"
@@ -152,7 +152,7 @@
     "module": "tech",
     "summary": "2024 年以来「端到端」席卷智驾圈。它是什么？和过去十年的模块化架构比，赢在哪、输在哪？",
     "url": "/articles/what-is-end-to-end.html",
-    "cover_image": "/assets/banner-main.jpg",
+    "cover_image": "",
     "tags": [
       "端到端",
       "技术路线"
