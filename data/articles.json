@@ -1,5 +1,22 @@
 [
   {
+    "id": "newcar-weilai-et5",
+    "slug": "newcar-weilai-et5",
+    "title": "蔚来ET5冠军纪念版 智驾解读",
+    "date": "2026-06-15",
+    "module": "newcar",
+    "summary": "蔚来ET5冠军纪念版全系搭载NIO PILOT全域领航辅助，NOP+高速+城区全覆盖，5年免费权益。",
+    "url": "/article.html?slug=newcar-weilai-et5",
+    "cover_image": "/assets/banner-ai.jpg",
+    "tags": [
+      "蔚来",
+      "ET5",
+      "NOP+",
+      "激光雷达",
+      "神玑NX9031"
+    ]
+  },
+  {
     "id": "lidar-camera-damage",
     "slug": "lidar-camera-damage",
     "title": "为什么\"激光雷达烧相机\"没人提了？",
@@ -74,12 +91,15 @@
     "title": "全新长城炮Hi4-T 智驾解读",
     "date": "2026-06-13",
     "module": "newcar",
-    "summary": "长城炮，Hi4-T混动+L2智驾，国产高端皮卡新选择",
+    "summary": "长城炮Hi4-T乘用版配备L2级辅助驾驶+Coffee OS 3智能座舱，商用车智驾相对基础，胜在稳定可靠，全系标配不额外收费。",
     "url": "/article.html?slug=newcar-greatwall-hi4t",
     "cover_image": "/assets/banner-ai.jpg",
     "tags": [
-      "新车解读",
-      "长城炮"
+      "长城炮",
+      "Hi4-T",
+      "皮卡",
+      "L2辅助",
+      "Coffee OS"
     ]
   },
   {
@@ -87,12 +107,15 @@
     "title": "全新深蓝S07 智驾解读",
     "date": "2026-06-13",
     "module": "newcar",
-    "summary": "深蓝汽车，华为乾崑激光雷达版，20万级高性价比智驾SUV",
+    "summary": "15万级唯一搭载华为乾崑ADS 4 Pro增强版的车型，27个传感器融合感知配激光雷达，城区、高速、泊车全场景智驾一步到位。",
     "url": "/article.html?slug=newcar-shenlan-s07",
     "cover_image": "/assets/banner-ai.jpg",
     "tags": [
-      "新车解读",
-      "深蓝汽车"
+      "深蓝",
+      "S07",
+      "华为",
+      "乾崑ADS",
+      "激光雷达"
     ]
   },
   {
@@ -137,12 +160,15 @@
     "title": "全新新乐道L60 智驾解读",
     "date": "2026-06-11",
     "module": "newcar",
-    "summary": "乐道（蔚来旗下），亲民路线，15万级智能电动SUV",
+    "summary": "Pro纯视觉够用、Max+上激光雷达+世界模型才是完全体；5年免费到期后月费380元。",
     "url": "/article.html?slug=newcar-ledao-l60",
     "cover_image": "/assets/banner-ai.jpg",
     "tags": [
-      "新车解读",
-      "乐道"
+      "乐道",
+      "L60",
+      "NWM世界模型",
+      "神玑芯片",
+      "换电"
     ]
   },
   {
@@ -150,12 +176,15 @@
     "title": "全新传祺向往E8/M8 智驾解读",
     "date": "2026-06-11",
     "module": "newcar",
-    "summary": "广汽传祺，广汽自研X-SOFTWARE智驾方案，中高端MPV智驾体验",
+    "summary": "M8全系标配高阶智驾，E8需买高配才有；想要城市NOA+M8同款体验，E8至少上Max激光雷达版。",
     "url": "/article.html?slug=newcar-chuanqi-e8m8",
     "cover_image": "/assets/banner-ai.jpg",
     "tags": [
-      "新车解读",
-      "广汽传祺"
+      "传祺",
+      "E8",
+      "M8",
+      "Momenta",
+      "城市NOA"
     ]
   },
   {
@@ -163,12 +192,15 @@
     "title": "全新smart精灵6号 智驾解读",
     "date": "2026-06-11",
     "module": "newcar",
-    "summary": "smart精灵6号，全系激光雷达+终身免费智驾，智驾性价比突出",
+    "summary": "全系激光雷达+31个感知硬件+终身免费智驾，诚意给到位；芯片算力未公开是唯一遗憾。",
     "url": "/article.html?slug=newcar-smart-5",
     "cover_image": "/assets/banner-ai.jpg",
     "tags": [
-      "新车解读",
-      "smart"
+      "smart",
+      "精灵6号",
+      "激光雷达",
+      "千里浩瀚",
+      "终身免费"
     ]
   },
   {
