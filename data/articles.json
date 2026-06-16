@@ -1,19 +1,38 @@
 [
   {
     "id": "lidar-camera-damage",
+    "slug": "lidar-camera-damage",
     "title": "为什么\"激光雷达烧相机\"没人提了？",
-    "date": "2026-06-15",
-    "module": "chip",
-    "summary": "905nm vs 1550nm，两种激光雷达对相机的威胁天差地别。SPAD芯片+市场选择让高风险方案边缘化，\"烧相机\"从全民焦虑变成无人问津。",
-    "url": "/articles/lidar-camera-damage.html",
-    "cover_image": "",
+    "date": "2026-06-16",
+    "module": "tech",
+    "summary": "2019到2025年，\"激光雷达烧相机\"案例此起彼伏。进入2026年话题突然消失——不是谁\"解决\"了问题，而是技术路线演进让这个问题本身变得不再重要。",
+    "url": "/article.html?slug=lidar-camera-damage",
+    "cover_image": "/assets/banner-ai.jpg",
     "tags": [
       "激光雷达",
+      "传感器安全",
       "905nm",
       "1550nm",
-      "CMOS",
       "SPAD",
-      "传感器安全"
+      "技术路线"
+    ]
+  },
+  {
+    "id": "lidar-camera-damage",
+    "slug": "lidar-camera-damage",
+    "title": "为什么\"激光雷达烧相机\"没人提了？",
+    "date": "2026-06-16",
+    "module": "chip",
+    "summary": "2019到2025年，\"激光雷达烧相机\"案例此起彼伏。进入2026年话题突然消失——不是谁\"解决\"了问题，而是技术路线演进让这个问题本身变得不再重要。",
+    "url": "/article.html?slug=lidar-camera-damage",
+    "cover_image": "/assets/banner-ai.jpg",
+    "tags": [
+      "激光雷达",
+      "传感器安全",
+      "905nm",
+      "1550nm",
+      "SPAD",
+      "技术路线"
     ]
   },
   {
