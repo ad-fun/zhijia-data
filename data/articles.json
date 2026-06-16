@@ -1,168 +1,168 @@
 [
-    {
-        "id": "lidar-camera-damage",
-        "title": "为什么\"激光雷达烧相机\"突然没人提了？",
-        "date": "2026-06-15",
-        "module": "chip",
-        "summary": "905nm vs 1550nm，两种激光雷达对相机的威胁天差地别。SPAD芯片+市场选择让高风险方案边缘化，\"烧相机\"从全民焦虑变成无人问津。",
-        "url": "/articles/lidar-camera-damage.html",
-        "cover_image": "",
-        "tags": [
-            "激光雷达",
-            "905nm",
-            "1550nm",
-            "CMOS",
-            "SPAD",
-            "传感器安全"
-        ]
-    },
-    {
-        "id": "tech-sensor-overview",
-        "title": "花了十几万买智驾，车到底靠什么“看路”？",
-        "date": "2026-06-15",
-        "module": "tech",
-        "summary": "摄像头、激光雷达、毫米波……智驾六大传感器各有绝活也各有致命短板，四家主流方案谁选了什么、为什么选、效果如何——一次讲透",
-        "url": "/articles/tech-sensor-overview.html",
-        "cover_image": "/assets/banner-ai.jpg",
-        "tags": [
-            "技术路线",
-            "传感器",
-            "激光雷达",
-            "纯视觉",
-            "融合感知",
-            "摄像头"
-        ]
-    },
-    {
-        "id": "tech-jargon-decode",
-        "title": "智驾名词大乱斗：一个产品经理的完全拆解",
-        "date": "2026-06-14",
-        "module": "tech",
-        "summary": "NOA、NCA、NGP、端到端、D2D……智驾黑话一次性拆干净，读完去店里销售得说实话",
-        "url": "/articles/tech-jargon-decode.html",
-        "cover_image": "/assets/cover-tech-jargon-decode.jpg",
-        "tags": [
-            "技术路线",
-            "NOA",
-            "端到端",
-            "智驾分级",
-            "纯视觉",
-            "激光雷达"
-        ]
-    },
-    {
-        "id": "newcar-greatwall-hi4t",
-        "title": "全新长城炮Hi4-T 智驾解读",
-        "date": "2026-06-13",
-        "module": "newcar",
-        "summary": "长城炮，Hi4-T混动+L2智驾，国产高端皮卡新选择",
-        "url": "/articles/newcar-greatwall-hi4t.html",
-        "cover_image": "/assets/banner-ai.jpg",
-        "tags": [
-            "新车解读",
-            "长城炮"
-        ]
-    },
-    {
-        "id": "newcar-shenlan-s07",
-        "title": "全新深蓝S07 智驾解读",
-        "date": "2026-06-13",
-        "module": "newcar",
-        "summary": "深蓝汽车，华为乾崑激光雷达版，20万级高性价比智驾SUV",
-        "url": "/articles/newcar-shenlan-s07.html",
-        "cover_image": "/assets/banner-ai.jpg",
-        "tags": [
-            "新车解读",
-            "深蓝汽车"
-        ]
-    },
-    {
-        "id": "daily-report-20260613",
-        "title": "智驾日报 | 2026年6月13日",
-        "date": "2026-06-13",
-        "module": "daily",
-        "summary": "欧洲18国批准跨境Robotaxi测试、Waymo推出月费订阅、特斯拉FSD丹麦获批——今日智驾要闻。",
-        "url": "/articles/daily-report-20260613.html",
-        "cover_image": "/assets/banner-daily.jpg",
-        "tags": [
-            "Waymo",
-            "特斯拉",
-            "欧盟",
-            "Robotaxi",
-            "长安",
-            "蔚来",
-            "黑芝麻智能"
-        ]
-    },
-    {
-        "id": "daily-report-20260612",
-        "title": "智驾日报 | 2026年6月12日",
-        "date": "2026-06-12",
-        "module": "daily",
-        "summary": "理想发布5nm马赫M100芯片、百度Apollo Go获瑞士L4批准、Waymo亚特兰大信任危机——今日智驾要闻。",
-        "url": "/articles/daily-report-20260612.html",
-        "cover_image": "/assets/banner-daily.jpg",
-        "tags": [
-            "理想汽车",
-            "特斯拉",
-            "Waymo",
-            "华为",
-            "百度Apollo",
-            "蔚来",
-            "广汽",
-            "smart"
-        ]
-    },
-    {
-        "id": "newcar-ledao-l60",
-        "title": "全新新乐道L60 智驾解读",
-        "date": "2026-06-11",
-        "module": "newcar",
-        "summary": "乐道（蔚来旗下），亲民路线，15万级智能电动SUV",
-        "url": "/articles/newcar-ledao-l60.html",
-        "cover_image": "/assets/banner-ai.jpg",
-        "tags": [
-            "新车解读",
-            "乐道"
-        ]
-    },
-    {
-        "id": "newcar-chuanqi-e8m8",
-        "title": "全新传祺向往E8/M8 智驾解读",
-        "date": "2026-06-11",
-        "module": "newcar",
-        "summary": "广汽传祺，广汽自研X-SOFTWARE智驾方案，中高端MPV智驾体验",
-        "url": "/articles/newcar-chuanqi-e8m8.html",
-        "cover_image": "/assets/banner-ai.jpg",
-        "tags": [
-            "新车解读",
-            "广汽传祺"
-        ]
-    },
-    {
-        "id": "newcar-smart-5",
-        "title": "全新smart精灵6号 智驾解读",
-        "date": "2026-06-11",
-        "module": "newcar",
-        "summary": "smart精灵6号，全系激光雷达+终身免费智驾，智驾性价比突出",
-        "url": "/articles/newcar-smart-5.html",
-        "cover_image": "/assets/banner-ai.jpg",
-        "tags": [
-            "新车解读",
-            "smart"
-        ]
-    },
-    {
-        "id": "what-is-end-to-end",
-        "title": "什么是端到端大模型？它如何重塑智驾",
-        "date": "2026-06-05",
-        "module": "tech",
-        "summary": "2024 年以来「端到端」席卷智驾圈。它是什么？和过去十年的模块化架构比，赢在哪、输在哪？",
-        "url": "/articles/what-is-end-to-end.html",
-        "cover_image": "/assets/banner-main.jpg",
-        "tags": [
-            "端到端",
-            "技术路线"
-        ]
-    }
+  {
+    "id": "lidar-camera-damage",
+    "title": "为什么\"激光雷达烧相机\"没人提了？",
+    "date": "2026-06-15",
+    "module": "chip",
+    "summary": "905nm vs 1550nm，两种激光雷达对相机的威胁天差地别。SPAD芯片+市场选择让高风险方案边缘化，\"烧相机\"从全民焦虑变成无人问津。",
+    "url": "/articles/lidar-camera-damage.html",
+    "cover_image": "",
+    "tags": [
+      "激光雷达",
+      "905nm",
+      "1550nm",
+      "CMOS",
+      "SPAD",
+      "传感器安全"
+    ]
+  },
+  {
+    "id": "tech-sensor-overview",
+    "title": "花了十几万买智驾，车到底靠什么“看路”？",
+    "date": "2026-06-15",
+    "module": "tech",
+    "summary": "摄像头、激光雷达、毫米波……智驾六大传感器各有绝活也各有致命短板，四家主流方案谁选了什么、为什么选、效果如何——一次讲透",
+    "url": "/articles/tech-sensor-overview.html",
+    "cover_image": "/assets/banner-ai.jpg",
+    "tags": [
+      "技术路线",
+      "传感器",
+      "激光雷达",
+      "纯视觉",
+      "融合感知",
+      "摄像头"
+    ]
+  },
+  {
+    "id": "tech-jargon-decode",
+    "title": "智驾名词大乱斗：一个产品经理的完全拆解",
+    "date": "2026-06-14",
+    "module": "tech",
+    "summary": "NOA、NCA、NGP、端到端、D2D……智驾黑话一次性拆干净，读完去店里销售得说实话",
+    "url": "/articles/tech-jargon-decode.html",
+    "cover_image": "/assets/cover-tech-jargon-decode.jpg",
+    "tags": [
+      "技术路线",
+      "NOA",
+      "端到端",
+      "智驾分级",
+      "纯视觉",
+      "激光雷达"
+    ]
+  },
+  {
+    "id": "newcar-greatwall-hi4t",
+    "title": "全新长城炮Hi4-T 智驾解读",
+    "date": "2026-06-13",
+    "module": "newcar",
+    "summary": "长城炮，Hi4-T混动+L2智驾，国产高端皮卡新选择",
+    "url": "/articles/newcar-greatwall-hi4t.html",
+    "cover_image": "/assets/banner-ai.jpg",
+    "tags": [
+      "新车解读",
+      "长城炮"
+    ]
+  },
+  {
+    "id": "newcar-shenlan-s07",
+    "title": "全新深蓝S07 智驾解读",
+    "date": "2026-06-13",
+    "module": "newcar",
+    "summary": "深蓝汽车，华为乾崑激光雷达版，20万级高性价比智驾SUV",
+    "url": "/articles/newcar-shenlan-s07.html",
+    "cover_image": "/assets/banner-ai.jpg",
+    "tags": [
+      "新车解读",
+      "深蓝汽车"
+    ]
+  },
+  {
+    "id": "daily-report-20260613",
+    "title": "智驾日报 | 2026年6月13日",
+    "date": "2026-06-13",
+    "module": "daily",
+    "summary": "欧洲18国批准跨境Robotaxi测试、Waymo推出月费订阅、特斯拉FSD丹麦获批——今日智驾要闻。",
+    "url": "/articles/daily-report-20260613.html",
+    "cover_image": "/assets/banner-daily.jpg",
+    "tags": [
+      "Waymo",
+      "特斯拉",
+      "欧盟",
+      "Robotaxi",
+      "长安",
+      "蔚来",
+      "黑芝麻智能"
+    ]
+  },
+  {
+    "id": "daily-report-20260612",
+    "title": "智驾日报 | 2026年6月12日",
+    "date": "2026-06-12",
+    "module": "daily",
+    "summary": "理想发布5nm马赫M100芯片、百度Apollo Go获瑞士L4批准、Waymo亚特兰大信任危机——今日智驾要闻。",
+    "url": "/articles/daily-report-20260612.html",
+    "cover_image": "/assets/banner-daily.jpg",
+    "tags": [
+      "理想汽车",
+      "特斯拉",
+      "Waymo",
+      "华为",
+      "百度Apollo",
+      "蔚来",
+      "广汽",
+      "smart"
+    ]
+  },
+  {
+    "id": "newcar-ledao-l60",
+    "title": "全新新乐道L60 智驾解读",
+    "date": "2026-06-11",
+    "module": "newcar",
+    "summary": "乐道（蔚来旗下），亲民路线，15万级智能电动SUV",
+    "url": "/articles/newcar-ledao-l60.html",
+    "cover_image": "/assets/banner-ai.jpg",
+    "tags": [
+      "新车解读",
+      "乐道"
+    ]
+  },
+  {
+    "id": "newcar-chuanqi-e8m8",
+    "title": "全新传祺向往E8/M8 智驾解读",
+    "date": "2026-06-11",
+    "module": "newcar",
+    "summary": "广汽传祺，广汽自研X-SOFTWARE智驾方案，中高端MPV智驾体验",
+    "url": "/articles/newcar-chuanqi-e8m8.html",
+    "cover_image": "/assets/banner-ai.jpg",
+    "tags": [
+      "新车解读",
+      "广汽传祺"
+    ]
+  },
+  {
+    "id": "newcar-smart-5",
+    "title": "全新smart精灵6号 智驾解读",
+    "date": "2026-06-11",
+    "module": "newcar",
+    "summary": "smart精灵6号，全系激光雷达+终身免费智驾，智驾性价比突出",
+    "url": "/articles/newcar-smart-5.html",
+    "cover_image": "/assets/banner-ai.jpg",
+    "tags": [
+      "新车解读",
+      "smart"
+    ]
+  },
+  {
+    "id": "what-is-end-to-end",
+    "title": "什么是端到端大模型？它如何重塑智驾",
+    "date": "2026-06-05",
+    "module": "tech",
+    "summary": "2024 年以来「端到端」席卷智驾圈。它是什么？和过去十年的模块化架构比，赢在哪、输在哪？",
+    "url": "/articles/what-is-end-to-end.html",
+    "cover_image": "/assets/banner-main.jpg",
+    "tags": [
+      "端到端",
+      "技术路线"
+    ]
+  }
 ]
