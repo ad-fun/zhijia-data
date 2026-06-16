@@ -1,0 +1,72 @@
+name: Publish Article
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: '文章标题'
+        required: true
+      slug:
+        description: '文章ID（英文，无空格）'
+        required: true
+      module:
+        description: '模块 (policy/tech/chip/rights/newcar/daily)'
+        required: true
+        default: 'tech'
+      date:
+        description: '日期 (YYYY-MM-DD)'
+        required: true
+      summary:
+        description: '文章摘要'
+        required: true
+      tags:
+        description: '标签，逗号分隔'
+        required: false
+        default: ''
+      content:
+        description: '文章HTML正文'
+        required: true
+      cover_image:
+        description: '封面图路径'
+        required: false
+        default: '/assets/banner-main.jpg'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PUBLISH_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run publish script
+        env:
+          SLUG: ${{ github.event.inputs.slug }}
+          TITLE: ${{ github.event.inputs.title }}
+          MODULE: ${{ github.event.inputs.module }}
+          DATE: ${{ github.event.inputs.date }}
+          SUMMARY: ${{ github.inputs.summary }}
+          TAGS: ${{ github.event.inputs.tags }}
+          CONTENT: ${{ github.event.inputs.content }}
+          COVER_IMAGE: ${{ github.event.inputs.cover_image }}
+          TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: python .github/scripts/publish_article.py
+
+      - name: Create version tag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          CURRENT=$(git describe --tags --abbrev=0 2>/dev/null || echo "v2.0.0")
+          MAJOR=$(echo $CURRENT | cut -d. -f1)
+          MINOR=$(echo $CURRENT | cut -d. -f2)
+          PATCH=$(echo $CURRENT | cut -d. -f3)
+          NEW_PATCH=$((PATCH + 1))
+          NEW_TAG="${MAJOR}.${MINOR}.${NEW_PATCH}"
+          git tag "$NEW_TAG"
+          git push origin "$NEW_TAG"
